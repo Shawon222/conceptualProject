@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container{
+    background-color: rgb(40, 38, 38);
+    padding: 20px;
+    color: white;
+     list-style: none; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+
+}
+.menus{
+    display: flex;
+
+}
+.logo-photo{
+    width: 120px;
+}
+.item{
+     margin-right: 10px;
+    padding-right: 7px; 
+     font-size: 18px; 
+}
+.item:hover{
+    color: darkcyan;
+}
+.banner-img{
+    width: 300px;
+  
+}
+.banner-container{
+    display: flex;
+  justify-content: space-around; 
+  height: 100vh;
+align-items: center;
+  border: none;
+  color: white;
+  background-image: url("background.png"),
+   linear-gradient(45deg,#080707,#000);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+ 
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    color: darkmagenta;
+}
+.about-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+   color: white;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 100px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #080707;
+}
